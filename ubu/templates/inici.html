@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Inici{%endblock title%}
+
+{% block content %}
+{% for inici in Inici %}
+<h1>{{Inici.titol_inici}}</h1>
+{% endfor %}
+{% endblock content %}

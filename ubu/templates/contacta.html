@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Dades de Contacte{%endblock title%}
+
+{% block content %}
+{% for contacta in dataCont %}
+<input type="text" name="nom">
+<input type="text" name="cognom">
+<input type="text" name="telefon">
+<input type="mail" name="correu electronic">
+{% endfor %}
+{% endblock content %}
